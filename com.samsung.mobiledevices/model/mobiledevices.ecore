@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="mobiledevices" nsURI="http://www.example.org/mobiledevices"
+    nsPrefix="mobiledevices">
+  <eClassifiers xsi:type="ecore:EClass" name="MobileDevices">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="mobiledevice" upperBound="-1"
+        eType="#//MobileDevice" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="MobileDevice" abstract="true">
+    <eOperations name="powerOn"/>
+    <eOperations name="powerOff"/>
+    <eOperations name="connectWiFi"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="screenDiag" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EDouble"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="batteryCapacity" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="deviceName" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="cameraMpx" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Tablet" abstract="true" eSuperTypes="#//MobileDevice">
+    <eOperations name="tabletApp"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="isCellular" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Smartphone" abstract="true" eSuperTypes="#//MobileDevice">
+    <eOperations name="smartphoneApp"/>
+    <eOperations name="doCall"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="TabletDevice" eSuperTypes="#//Tablet"/>
+  <eClassifiers xsi:type="ecore:EClass" name="SmartphoneDevice" eSuperTypes="#//Smartphone"/>
+</ecore:EPackage>

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:diagram="http://www.eclipse.org/sirius/diagram/1.1.0" xmlns:mobiledevices="http://www.example.org/mobiledevices" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" xsi:schemaLocation="http://www.eclipse.org/sirius/description/1.1.0 http://www.eclipse.org/sirius/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/style/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description/style">
+  <viewpoint:DAnalysis xmi:id="_3tkgQNy9EeaJspBFIZIrtg" selectedViews="_qshd0N1XEeaxO-nYqYFKxQ" version="11.1.0.201608251200">
+    <semanticResources>My.mobiledevices</semanticResources>
+    <ownedViews xmi:type="viewpoint:DView" xmi:id="_qshd0N1XEeaxO-nYqYFKxQ">
+      <viewpoint xmi:type="description:Viewpoint" href="platform:/resource/com.samsung.mobiledevices.design/description/mobiledevices.odesign#//@ownedViewpoints[name='devices']"/>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" xmi:id="_rrPI0N1XEeaxO-nYqYFKxQ" name="new Devices diagram" representation="_rrPI0d1XEeaxO-nYqYFKxQ">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/resource/com.samsung.mobiledevices.design/description/mobiledevices.odesign#//@ownedViewpoints[name='devices']/@ownedRepresentations[name='Devices%20diagram']"/>
+        <target xmi:type="mobiledevices:MobileDevices" href="My.mobiledevices#/"/>
+      </ownedRepresentationDescriptors>
+    </ownedViews>
+  </viewpoint:DAnalysis>
+  <diagram:DSemanticDiagram xmi:id="_rrPI0d1XEeaxO-nYqYFKxQ" name="new Devices diagram">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_rrPI0t1XEeaxO-nYqYFKxQ" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" xmi:id="_rrPI091XEeaxO-nYqYFKxQ"/>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_rroxcN1XEeaxO-nYqYFKxQ" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_rroxcd1XEeaxO-nYqYFKxQ" type="Sirius" element="_rrPI0d1XEeaxO-nYqYFKxQ" measurementUnit="Pixel">
+        <children xmi:type="notation:Node" xmi:id="_rr0-sN1XEeaxO-nYqYFKxQ" type="2001" element="_rrPI1N1XEeaxO-nYqYFKxQ">
+          <children xmi:type="notation:Node" xmi:id="_rsUt8N1XEeaxO-nYqYFKxQ" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_rsUt8d1XEeaxO-nYqYFKxQ" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_rshiQN1XEeaxO-nYqYFKxQ" type="3003" element="_rrPI1d1XEeaxO-nYqYFKxQ">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_rshiQd1XEeaxO-nYqYFKxQ" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rshiQt1XEeaxO-nYqYFKxQ"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_rr0-sd1XEeaxO-nYqYFKxQ" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rr0-st1XEeaxO-nYqYFKxQ" width="100" height="100"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_rsd34N1XEeaxO-nYqYFKxQ" type="2001" element="_rrPI1t1XEeaxO-nYqYFKxQ">
+          <children xmi:type="notation:Node" xmi:id="_rsee8N1XEeaxO-nYqYFKxQ" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_rsee8d1XEeaxO-nYqYFKxQ" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_rsiwYN1XEeaxO-nYqYFKxQ" type="3003" element="_rrPI191XEeaxO-nYqYFKxQ">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_rsiwYd1XEeaxO-nYqYFKxQ" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rsiwYt1XEeaxO-nYqYFKxQ"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_rsd34d1XEeaxO-nYqYFKxQ" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rsd34t1XEeaxO-nYqYFKxQ" x="160" width="100" height="100"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_rsfGAN1XEeaxO-nYqYFKxQ" type="2001" element="_rrPv4N1XEeaxO-nYqYFKxQ">
+          <children xmi:type="notation:Node" xmi:id="_rsfGA91XEeaxO-nYqYFKxQ" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_rsfGBN1XEeaxO-nYqYFKxQ" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_rsjXcN1XEeaxO-nYqYFKxQ" type="3003" element="_rrPv4d1XEeaxO-nYqYFKxQ">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_rsjXcd1XEeaxO-nYqYFKxQ" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rsjXct1XEeaxO-nYqYFKxQ"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_rsfGAd1XEeaxO-nYqYFKxQ" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rsfGAt1XEeaxO-nYqYFKxQ" x="320" width="100" height="100"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_rsftEN1XEeaxO-nYqYFKxQ" type="2001" element="_rrPv4t1XEeaxO-nYqYFKxQ">
+          <children xmi:type="notation:Node" xmi:id="_rsgUIN1XEeaxO-nYqYFKxQ" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_rsgUId1XEeaxO-nYqYFKxQ" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_rsjXc91XEeaxO-nYqYFKxQ" type="3003" element="_rrPv491XEeaxO-nYqYFKxQ">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_rsjXdN1XEeaxO-nYqYFKxQ" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rsjXdd1XEeaxO-nYqYFKxQ"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_rsftEd1XEeaxO-nYqYFKxQ" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rsftEt1XEeaxO-nYqYFKxQ" x="480" width="100" height="100"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_sd24kN1XEeaxO-nYqYFKxQ" type="2001" element="_sdnA8N1XEeaxO-nYqYFKxQ">
+          <children xmi:type="notation:Node" xmi:id="_sd3foN1XEeaxO-nYqYFKxQ" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_sd3fod1XEeaxO-nYqYFKxQ" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_sd4twN1XEeaxO-nYqYFKxQ" type="3003" element="_sdoPEN1XEeaxO-nYqYFKxQ">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_sd4twd1XEeaxO-nYqYFKxQ" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sd4twt1XEeaxO-nYqYFKxQ"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_sd24kd1XEeaxO-nYqYFKxQ" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sd24kt1XEeaxO-nYqYFKxQ" x="235" y="240" width="100" height="100"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_tgqZYN1XEeaxO-nYqYFKxQ" type="2001" element="_tghPcN1XEeaxO-nYqYFKxQ">
+          <children xmi:type="notation:Node" xmi:id="_tgrngN1XEeaxO-nYqYFKxQ" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_tgrngd1XEeaxO-nYqYFKxQ" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_tgs1oN1XEeaxO-nYqYFKxQ" type="3003" element="_tgh2gN1XEeaxO-nYqYFKxQ">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_tgs1od1XEeaxO-nYqYFKxQ" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_tgs1ot1XEeaxO-nYqYFKxQ"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_tgqZYd1XEeaxO-nYqYFKxQ" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_tgqZYt1XEeaxO-nYqYFKxQ" x="360" y="240" width="100" height="100"/>
+        </children>
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_rroxct1XEeaxO-nYqYFKxQ"/>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_rrPI1N1XEeaxO-nYqYFKxQ" name="Galaxy S7" width="10" height="10" resizeKind="NSEW">
+      <target xmi:type="mobiledevices:SmartphoneDevice" href="My.mobiledevices#//@mobiledevice.2"/>
+      <semanticElements xmi:type="mobiledevices:SmartphoneDevice" href="My.mobiledevices#//@mobiledevice.2"/>
+      <ownedStyle xmi:type="diagram:Square" xmi:id="_rrPI1d1XEeaxO-nYqYFKxQ" labelPosition="node" width="10" height="10" color="194,239,255">
+        <description xmi:type="style:SquareDescription" href="platform:/resource/com.samsung.mobiledevices.design/description/mobiledevices.odesign#//@ownedViewpoints[name='devices']/@ownedRepresentations[name='Devices%20diagram']/@defaultLayer/@nodeMappings[name='SmartphoneNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/com.samsung.mobiledevices.design/description/mobiledevices.odesign#//@ownedViewpoints[name='devices']/@ownedRepresentations[name='Devices%20diagram']/@defaultLayer/@nodeMappings[name='SmartphoneNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_rrPI1t1XEeaxO-nYqYFKxQ" name="Galaxy Note 5" width="10" height="10" resizeKind="NSEW">
+      <target xmi:type="mobiledevices:SmartphoneDevice" href="My.mobiledevices#//@mobiledevice.3"/>
+      <semanticElements xmi:type="mobiledevices:SmartphoneDevice" href="My.mobiledevices#//@mobiledevice.3"/>
+      <ownedStyle xmi:type="diagram:Square" xmi:id="_rrPI191XEeaxO-nYqYFKxQ" labelPosition="node" width="10" height="10" color="194,239,255">
+        <description xmi:type="style:SquareDescription" href="platform:/resource/com.samsung.mobiledevices.design/description/mobiledevices.odesign#//@ownedViewpoints[name='devices']/@ownedRepresentations[name='Devices%20diagram']/@defaultLayer/@nodeMappings[name='SmartphoneNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/com.samsung.mobiledevices.design/description/mobiledevices.odesign#//@ownedViewpoints[name='devices']/@ownedRepresentations[name='Devices%20diagram']/@defaultLayer/@nodeMappings[name='SmartphoneNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_tghPcN1XEeaxO-nYqYFKxQ" name="Galaxy S6 Edge" width="10" height="10" resizeKind="NSEW">
+      <target xmi:type="mobiledevices:SmartphoneDevice" href="My.mobiledevices#//@mobiledevice.5"/>
+      <semanticElements xmi:type="mobiledevices:SmartphoneDevice" href="My.mobiledevices#//@mobiledevice.5"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:Square" xmi:id="_tgh2gN1XEeaxO-nYqYFKxQ" labelPosition="node" width="10" height="10" color="194,239,255">
+        <description xmi:type="style:SquareDescription" href="platform:/resource/com.samsung.mobiledevices.design/description/mobiledevices.odesign#//@ownedViewpoints[name='devices']/@ownedRepresentations[name='Devices%20diagram']/@defaultLayer/@nodeMappings[name='SmartphoneNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/com.samsung.mobiledevices.design/description/mobiledevices.odesign#//@ownedViewpoints[name='devices']/@ownedRepresentations[name='Devices%20diagram']/@defaultLayer/@nodeMappings[name='SmartphoneNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_rrPv4N1XEeaxO-nYqYFKxQ" name="Galaxy Tab A" width="10" height="10" resizeKind="NSEW">
+      <target xmi:type="mobiledevices:TabletDevice" href="My.mobiledevices#//@mobiledevice.0"/>
+      <semanticElements xmi:type="mobiledevices:TabletDevice" href="My.mobiledevices#//@mobiledevice.0"/>
+      <ownedStyle xmi:type="diagram:Square" xmi:id="_rrPv4d1XEeaxO-nYqYFKxQ" labelPosition="node" width="10" height="10" color="217,196,215">
+        <description xmi:type="style:SquareDescription" href="platform:/resource/com.samsung.mobiledevices.design/description/mobiledevices.odesign#//@ownedViewpoints[name='devices']/@ownedRepresentations[name='Devices%20diagram']/@defaultLayer/@nodeMappings[name='TabletNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/com.samsung.mobiledevices.design/description/mobiledevices.odesign#//@ownedViewpoints[name='devices']/@ownedRepresentations[name='Devices%20diagram']/@defaultLayer/@nodeMappings[name='TabletNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_rrPv4t1XEeaxO-nYqYFKxQ" name="Galaxy Tab S2" width="10" height="10" resizeKind="NSEW">
+      <target xmi:type="mobiledevices:TabletDevice" href="My.mobiledevices#//@mobiledevice.1"/>
+      <semanticElements xmi:type="mobiledevices:TabletDevice" href="My.mobiledevices#//@mobiledevice.1"/>
+      <ownedStyle xmi:type="diagram:Square" xmi:id="_rrPv491XEeaxO-nYqYFKxQ" labelPosition="node" width="10" height="10" color="217,196,215">
+        <description xmi:type="style:SquareDescription" href="platform:/resource/com.samsung.mobiledevices.design/description/mobiledevices.odesign#//@ownedViewpoints[name='devices']/@ownedRepresentations[name='Devices%20diagram']/@defaultLayer/@nodeMappings[name='TabletNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/com.samsung.mobiledevices.design/description/mobiledevices.odesign#//@ownedViewpoints[name='devices']/@ownedRepresentations[name='Devices%20diagram']/@defaultLayer/@nodeMappings[name='TabletNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_sdnA8N1XEeaxO-nYqYFKxQ" name="Galaxy Tab E" width="10" height="10" resizeKind="NSEW">
+      <target xmi:type="mobiledevices:TabletDevice" href="My.mobiledevices#//@mobiledevice.4"/>
+      <semanticElements xmi:type="mobiledevices:TabletDevice" href="My.mobiledevices#//@mobiledevice.4"/>
+      <ownedStyle xmi:type="diagram:Square" xmi:id="_sdoPEN1XEeaxO-nYqYFKxQ" labelPosition="node" width="10" height="10" color="217,196,215">
+        <description xmi:type="style:SquareDescription" href="platform:/resource/com.samsung.mobiledevices.design/description/mobiledevices.odesign#//@ownedViewpoints[name='devices']/@ownedRepresentations[name='Devices%20diagram']/@defaultLayer/@nodeMappings[name='TabletNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/com.samsung.mobiledevices.design/description/mobiledevices.odesign#//@ownedViewpoints[name='devices']/@ownedRepresentations[name='Devices%20diagram']/@defaultLayer/@nodeMappings[name='TabletNode']"/>
+    </ownedDiagramElements>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/resource/com.samsung.mobiledevices.design/description/mobiledevices.odesign#//@ownedViewpoints[name='devices']/@ownedRepresentations[name='Devices%20diagram']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" xmi:id="_rrPv5N1XEeaxO-nYqYFKxQ"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/resource/com.samsung.mobiledevices.design/description/mobiledevices.odesign#//@ownedViewpoints[name='devices']/@ownedRepresentations[name='Devices%20diagram']/@defaultLayer"/>
+    <target xmi:type="mobiledevices:MobileDevices" href="My.mobiledevices#/"/>
+  </diagram:DSemanticDiagram>
+</xmi:XMI>

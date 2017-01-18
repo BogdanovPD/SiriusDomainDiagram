@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<description:Group xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:tool="http://www.eclipse.org/sirius/diagram/description/tool/1.1.0" xmlns:tool_1="http://www.eclipse.org/sirius/description/tool/1.1.0" name="mobiledevices" version="11.1.1.201610211630">
+  <ownedViewpoints name="devices" modelFileExtension="mobiledevices">
+    <ownedRepresentations xsi:type="description_1:DiagramDescription" name="Devices diagram" domainClass="mobiledevices.MobileDevices" enablePopupBars="true">
+      <metamodel href="http://www.example.org/mobiledevices#/"/>
+      <defaultLayer name="Default">
+        <nodeMappings name="SmartphoneNode" semanticCandidatesExpression="feature:mobiledevice" domainClass="mobiledevices.Smartphone">
+          <style xsi:type="style:SquareDescription" labelExpression="feature:deviceName" labelPosition="node" resizeKind="NSEW" width="10" height="10">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_blue']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="TabletNode" semanticCandidatesExpression="feature:mobiledevice" domainClass="mobiledevices.TabletDevice">
+          <style xsi:type="style:SquareDescription" labelExpression="feature:deviceName" labelPosition="node" resizeKind="NSEW" width="10" height="10">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_purple']"/>
+          </style>
+        </nodeMappings>
+        <toolSections>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="createTablet" label="Tablet" forceRefresh="true" nodeMappings="//@ownedViewpoints[name='devices']/@ownedRepresentations[name='Devices%20diagram']/@defaultLayer/@nodeMappings[name='TabletNode']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="mobiledevices.TabletDevice" referenceName="mobiledevice">
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="deviceName" valueExpression="aql:'Galaxy Tab '"/>
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="screenDiag" valueExpression="10.0"/>
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="cameraMpx" valueExpression="5"/>
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="batteryCapacity" valueExpression="6000"/>
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="isCellular" valueExpression="true"/>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="createSmartphone" label="Smartphone" forceRefresh="true" nodeMappings="//@ownedViewpoints[name='devices']/@ownedRepresentations[name='Devices%20diagram']/@defaultLayer/@nodeMappings[name='SmartphoneNode']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="mobiledevices.SmartphoneDevice" referenceName="mobiledevice">
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="deviceName" valueExpression="aql:'Galaxy '"/>
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="screenDiag" valueExpression="5.0"/>
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="cameraMpx" valueExpression="10"/>
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="batteryCapacity" valueExpression="3000"/>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+        </toolSections>
+      </defaultLayer>
+    </ownedRepresentations>
+    <ownedJavaExtensions qualifiedClassName="com.samsung.mobiledevices.design.Services"/>
+  </ownedViewpoints>
+</description:Group>

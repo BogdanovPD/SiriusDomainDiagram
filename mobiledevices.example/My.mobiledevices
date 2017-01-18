@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mobiledevices:MobileDevices xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mobiledevices="http://www.example.org/mobiledevices">
+  <mobiledevice xsi:type="mobiledevices:TabletDevice" screenDiag="10.2" batteryCapacity="6000" deviceName="Galaxy Tab A" cameraMpx="5"/>
+  <mobiledevice xsi:type="mobiledevices:TabletDevice" screenDiag="9.7" batteryCapacity="6000" deviceName="Galaxy Tab S2" cameraMpx="6" isCellular="true"/>
+  <mobiledevice xsi:type="mobiledevices:SmartphoneDevice" screenDiag="5.7" batteryCapacity="3000" deviceName="Galaxy S7" cameraMpx="16"/>
+  <mobiledevice xsi:type="mobiledevices:SmartphoneDevice" screenDiag="8.2" batteryCapacity="3500" deviceName="Galaxy Note 5" cameraMpx="12"/>
+  <mobiledevice xsi:type="mobiledevices:TabletDevice" screenDiag="10.0" batteryCapacity="6000" deviceName="Galaxy Tab E" cameraMpx="5" isCellular="true"/>
+  <mobiledevice xsi:type="mobiledevices:SmartphoneDevice" screenDiag="5.0" batteryCapacity="3000" deviceName="Galaxy S6 Edge" cameraMpx="10"/>
+</mobiledevices:MobileDevices>
